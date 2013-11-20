@@ -146,6 +146,8 @@ div{
 
 }
 
+
+
 #rightShadow{
 	background-image:url('../imagenes/rightShadow.png');
 	background-repeat:repeat-y;
@@ -155,11 +157,12 @@ div{
 
 #text{
 	background-color: #f9f9f8;
+	text-align: justify;
 	color: #62782a;
 	height: 100%;
 	background-image:url('../imagenes/bgtext.png');
 	background-repeat:repeat-x;
-	padding: 20px 40px 20px 20px;
+	padding: 20px 50px 40px 20px;
 	font-family: Tahoma,'Book antiqua','Open Sans', sans-serif;
 }
 
@@ -227,3 +230,12 @@ div{
 	height: 100%;
 	min-height:400px;
 }
+
+.letterpress {
+    color:#95c21f;
+    font-size:70px;
+    text-shadow: 0 1px 1px #8dff8a; 
+}
+
+
+.shadowletters  { text-shadow: 2px 2px 3px #BBB; }
